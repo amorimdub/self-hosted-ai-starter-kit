@@ -1,0 +1,25 @@
+# Self-Hosted AI Starter Kit
+
+## Overview
+
+This project provides a starter kit for self-hosting various AI and machine learning services using Docker.
+
+## Getting Started
+
+### Prerequisites
+
+* A compatible Linux system (e.g. Ubuntu 20.04)
+* NVIDIA GPU drivers installed (if using GPU acceleration)
+
+### Installation
+
+1. Clone this repository to your local machine using `git clone https://github.com/username/self-hosted-ai-starter-kit.git`
+2. Navigate into the project directory: `cd self-hosted-ai-starter-kit`
+
+### Running the Service
+
+#### Development Environment (CPU-only)
+
+```bash
+docker-compose --profile gpu-nvidia up
+
